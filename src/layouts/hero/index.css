@@ -1,0 +1,15 @@
+.hero-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#1f1f21, #000);
+    display: flex;
+}
+
+.hero-container {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
