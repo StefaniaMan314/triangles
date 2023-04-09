@@ -45,7 +45,7 @@ const ImageGallery = () => {
       <Grid container spacing={1} className="gallery-row row-3">
         {lightboxImages.slice(8, 12).map((image, index) => {
           return (
-            <Grid key={`${index}-row-3`} item lg={3} md={6} sm={6} xs={12} onClick={() => setCurrentIndex(index)}>
+            <Grid key={`${index}-row-3`} item lg={3} md={6} sm={6} xs={12} onClick={() => setCurrentIndex(index + 8)}>
               <ImageComponent src={image.src}/>
             </Grid>
           );
@@ -87,6 +87,12 @@ const ImageGallery = () => {
             images={lightboxImages}
             currentIndex={currentImageIndex}
             renderHeader={() => (<ImageClose handleOnClose={onClose}/>)}
+            pageTransitionConfig={{
+              from: { },
+              enter: { },
+              leave: { },
+              config: { }
+            }}
         />
     </div>
   );

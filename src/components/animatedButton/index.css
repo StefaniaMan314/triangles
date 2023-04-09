@@ -30,17 +30,21 @@
     transition: background 0.1s ease;
 }
 
+.cybr-btn:hover {
+    transform: scale3d(1.1,1.1, 1.1);
+}
+
 .cybr-btn *,
 .cybr-btn *:after {
     outline: transparent;
 }
 
-.cybr-btn:hover .cybr-btn__text:after,
-.cybr-btn:hover .cybr-btn__glitch:after {
+.cybr-btn .cybr-btn__text:after,
+.cybr-btn .cybr-btn__glitch:after {
     display: block;
 }
 
-.cybr-btn:hover {
+.cybr-btn {
     --primary-lightness: 40;
     cursor: pointer;
 }
