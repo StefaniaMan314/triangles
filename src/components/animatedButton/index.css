@@ -4,7 +4,7 @@
     --primary-lightness: 52;
     --color: #fff;
     --black: #0d0d0d;
-    --font-size: 26px;
+    --font-size: 24px;
     --label-size: 9px;
     --shadow-primary-hue: 103;
     --shadow-secondary-hue: 103;
@@ -15,7 +15,7 @@
     --shadow-primary: hsl(var(--shadow-primary-hue), 100%, 50%);
     --shadow-primary-alpha: hsla(var(--shadow-primary-hue), 100%, 50%, 0.5);
     --shadow-secondary: hsl(var(--shadow-secondary-hue), 100%, 50%);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     position: relative;
     text-transform: uppercase;
     background: var(--primary);
@@ -500,5 +500,27 @@
     100% {
         -webkit-clip-path: inset(0 0 100% 0);
         clip-path: inset(0 0 100% 0);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cybr-btn {
+        width: 25vw;
+        font-size: 2vw;
+        min-width: initial;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cybr-btn {
+        width: 30vw;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .cybr-btn {
+        width: 40vw;
+        font-size: 4vw;
     }
 }

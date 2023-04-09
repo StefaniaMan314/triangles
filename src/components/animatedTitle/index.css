@@ -20,3 +20,22 @@
         opacity: 0.4;
    }
 }
+
+
+@media screen and (max-width: 991px) {
+    h1.neon {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1.neon {
+        font-size: 12vmin;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1.neon {
+        font-size: 10vmin;
+    }
+}
