@@ -1,0 +1,24 @@
+.footer-wrapper {
+    padding: 60px 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.footer-container {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.developers span {
+    position: relative;
+    top: 7px;
+}

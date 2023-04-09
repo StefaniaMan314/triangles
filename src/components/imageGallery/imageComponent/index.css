@@ -19,6 +19,8 @@
     z-index: 2;
     opacity: 0;
     transition: .5s ease;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
 }
 
 .image-container:hover {
