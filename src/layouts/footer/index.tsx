@@ -2,7 +2,7 @@ import { Container } from "@mui/material";
 import "./index.css";
 
 const heart = (
-    <svg fill="#48ff00" viewBox="0 0 400 400" id="Heart" version="1.1" width={25}>
+  <svg fill="#48ff00" viewBox="0 0 400 400" id="Heart" version="1.1" width={25}>
     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
@@ -21,13 +21,7 @@ const heart = (
           id="XMLID_186_"
           points="320,40 320,13.3 293.3,13.3 266.7,13.3 266.7,40 293.3,40 "
         ></polygon>{" "}
-        <rect
-          height="26.7"
-          id="XMLID_187_"
-          width="26.7"
-          x="53.3"
-          y="40"
-        ></rect>{" "}
+        <rect height="26.7" id="XMLID_187_" width="26.7" x="53.3" y="40"></rect>{" "}
         <rect
           height="26.7"
           id="XMLID_188_"
@@ -35,20 +29,8 @@ const heart = (
           x="133.3"
           y="40"
         ></rect>{" "}
-        <rect
-          height="26.7"
-          id="XMLID_189_"
-          width="26.7"
-          x="240"
-          y="40"
-        ></rect>{" "}
-        <rect
-          height="26.7"
-          id="XMLID_190_"
-          width="26.7"
-          x="320"
-          y="40"
-        ></rect>{" "}
+        <rect height="26.7" id="XMLID_189_" width="26.7" x="240" y="40"></rect>{" "}
+        <rect height="26.7" id="XMLID_190_" width="26.7" x="320" y="40"></rect>{" "}
         <rect
           height="26.7"
           id="XMLID_191_"
@@ -192,7 +174,7 @@ const FooterLayout = () => {
   return (
     <div className="footer-wrapper">
       <Container className="footer-container" maxWidth="lg">
-        <div className="copywrite">©2023 Triangles. All rights reserved.</div>
+        <div className="copywrite">©2024 Triangles. All rights reserved.</div>
         <div className="developers">
           Developed with <span>{heart}</span> by Stefi.
         </div>
